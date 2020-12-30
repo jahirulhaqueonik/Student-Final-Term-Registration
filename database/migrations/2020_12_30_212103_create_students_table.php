@@ -18,8 +18,8 @@ class CreateStudentsTable extends Migration
             $table->string('studentname');
             $table->string('studentid');
             $table->string('studentsection');
+            $table->string('studentbatch');
             $table->string('studentdept');
-            $table->string('studentbase');
             $table->string('studentexamterm');
             $table->string('studentpayment');
             $table->timestamps();
