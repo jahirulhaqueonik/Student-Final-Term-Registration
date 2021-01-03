@@ -49,16 +49,17 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>StudentDept:</strong>
-                <input type="text" name="studentdept" value="{{$student->studentdept}}" class="form-control" placeholder="studentdept">
+                <strong>StudentBatch:</strong>
+                <input type="text" name="studentbatch" value="{{$student->studentbatch}}" class="form-control" placeholder="studentbase">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>StudentBatch:</strong>
-                <input type="text" name="studentbase" value="{{$student->studentbase}}" class="form-control" placeholder="studentbase">
+                <strong>StudentDept:</strong>
+                <input type="text" name="studentdept" value="{{$student->studentdept}}" class="form-control" placeholder="studentdept">
             </div>
         </div>
+        
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>StudentExamTerm:</strong>
