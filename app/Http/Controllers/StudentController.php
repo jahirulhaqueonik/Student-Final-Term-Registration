@@ -18,7 +18,7 @@ class StudentController extends Controller
 
     public function create()
     {
-        return view('students.create');
+        return view('students.Create');
     }
 
    
@@ -42,14 +42,14 @@ class StudentController extends Controller
   
     public function show(Student $student)
     {
-        return redirect()->route('students.index')
-            ->with('success','Students created successfully.');
+        return view('students.Show',compact('student'));
+           
     }
 
     
     public function edit(Student $student)
     {
-        return view('students.show',compact('student'));
+        return view('students.Edit',compact('student'));
     }
 
 
