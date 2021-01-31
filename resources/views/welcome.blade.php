@@ -30,12 +30,14 @@
         <div></div>
         
         <secttion  class="banner" style="text-align:center">
-           <!-- <img src="\images\banner.jpeg" alt="Girl in a jacket">-->
+           <h3 style="position:absolute;top: 30%;left: 50%;transform: translate(-50%, -50%);font-family:rokkitt">
+           Hello, Welcome To <br>Student Data Management System.<br>To Get Access Please Login/Registration First
+           </h3>
         </secton>
             @if (Route::has('login'))
                 <div style="position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
                     @auth
-                        <a href="{{ url('/dashboard') }}"  class="text-sm text-gray-700 underline">Dashboard</a>
+                        <a href="{{ url('/dashboard') }}"  class="btn btn-primary">Dashboard</a>
                     @else
                     <br>
                         <a href="{{ route('login') }}" class="btn btn-primary">Login</a>
