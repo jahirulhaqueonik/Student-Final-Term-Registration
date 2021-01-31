@@ -8,7 +8,8 @@
             <h2 style="text-align:center;margin-top:15px">Entry New Student Informations</h2>
         </div>
         <div class="pull-left">
-            <a class="btn btn-primary" href="{{route('students.index')}}">Back</a>
+          <!--  <a class="btn btn-primary" href="{{route('students.index')}}">Back</a>-->
+          <a style="margin-top:10px;margin-bottom:10px" class="btn btn-primary" href="{{ url('/dashboard') }}" >Back To Dashboard</a>
         </div>
     </div>
 </div>
@@ -72,8 +73,8 @@
         </div>
     </div>
 
-    <div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+    <div style="margin-top:5px;margin-bottom:50px;margin-left:10px"> 
+        <button type="submit" class="btn btn-primary">Add Data</button>
     </div>
     </div>
 </form>
