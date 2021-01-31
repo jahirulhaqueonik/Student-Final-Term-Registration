@@ -12,7 +12,7 @@
         </div>
     @endif
 
-    <table class="table table-bordered">
+    <table class="table table-striped table-dark">
         <tr>
             <th>S_No</th>
             <th>Name</th>
