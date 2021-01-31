@@ -49,17 +49,16 @@
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <strong>Student Batch:</strong>
-            <input type="text" name="studentbatch" class="form-control" placeholder="Batch">
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12">
-        <div class="form-group">
             <strong>Student Department:</strong>
             <input type="text" name="studentdept" class="form-control" placeholder="Department">
         </div>
     </div>
-    
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="form-group">
+            <strong>Student Batch:</strong>
+            <input type="text" name="studentbase" class="form-control" placeholder="Batch">
+        </div>
+    </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong>Exam Term(final):</strong>

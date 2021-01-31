@@ -3,7 +3,7 @@
 @section('content')
 
 <div>
-    <h2 style="text-align:center;margin-top:15px">Final Term Examination Student Informations</h2>
+    <h2 style="text-align:center;margin-top:15px;font-size: 24px;">Final Term Examination Student Informations</h2>
 </div>
 
     @if($message=Session::get('success'))
