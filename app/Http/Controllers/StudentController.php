@@ -39,7 +39,7 @@ class StudentController extends Controller
 
     public function show(Student $student)
     {
-        return view('students.show',compact('student'));
+        return view('students.Show',compact('student'));
     }
     
     public function edit(Student $student)
