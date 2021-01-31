@@ -9,10 +9,10 @@
 
 
 
-    <div class="pull-right" style="text-align: center">
+    <div class="pull-right" style="position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
 
-            <a  class="btn btn-primary"href="{{route('students.create')}}" >Create New Student</a>
-            <a  class="btn btn-success" href="http://127.0.0.1:8000/students">Show</a>
+            <a  class="btn btn-primary"href="{{route('students.create')}}" >Add New Data</a>
+            <a  class="btn btn-success" href="http://127.0.0.1:8000/students">Show All Data</a>
 
     </div>
 
