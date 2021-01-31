@@ -3,7 +3,7 @@
 @section('content')
 
 <div>
-    <h2 style="text-align:center;margin-top:15px;font-size: 24px;">Final Term Examination Student Informations</h2>
+    <h2 style="text-align:center;margin-top:15px;font-size: 24px;font-family:arapey">Final Term Examination Student Informations</h2>
 </div>
 
     @if($message=Session::get('success'))
@@ -51,7 +51,8 @@
     <div class="row" style="text-align:center;margin-top:15px;margin-bottom:15px">
     <div class="col-lg-12 margin-tb">
         <div class="pull-right">
-            <a class="btn btn-success" href="{{route('students.create')}}">Create New Student</a>
+            <!--<a class="btn btn-success" href="{{route('students.create')}}">Create New Student</a>-->
+            <a class="btn btn-success" href="{{ url('/dashboard') }}">Back To Dashboard</a>
         </div>
     </div>
 </div>
